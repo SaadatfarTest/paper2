@@ -7,6 +7,7 @@ defined('YII_DEBUG') or define('YII_DEBUG',true);
 
 require_once(dirname(__FILE__).DS.'framework'.DS.'yii.php');
 
+TEST
 
 $app=Yii::createWebApplication(dirname(__FILE__).DS.'protected'.DS.'config'.DS.'main.php')->run();
 
